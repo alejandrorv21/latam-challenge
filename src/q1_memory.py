@@ -54,32 +54,6 @@ def q1_memory(file_path: str) -> List[Tuple[datetime.date, str]]:
 
     return results_aggregated
 
-"""
-   date_convert   cant
-0    2021-02-12  12347
-1    2021-02-13  11296
-5    2021-02-17  11087
-4    2021-02-16  10443
-2    2021-02-14  10249
-6    2021-02-18   9625
-3    2021-02-15   9197
-8    2021-02-20   8502
-11   2021-02-23   8417
-7    2021-02-19   8204
-
-[(datetime.date(2021, 2, 12), 'RanbirS00614606'),
- (datetime.date(2021, 2, 13), 'MaanDee08215437'),
- (datetime.date(2021, 2, 17), 'RaaJVinderkaur'),
- (datetime.date(2021, 2, 16), 'jot__b'),
- (datetime.date(2021, 2, 14), 'rebelpacifist'),
- (datetime.date(2021, 2, 18), 'neetuanjle_nitu'),
- (datetime.date(2021, 2, 15), 'jot__b'),
- (datetime.date(2021, 2, 20), 'MangalJ23056160'),
- (datetime.date(2021, 2, 23), 'Surrypuria'),
- (datetime.date(2021, 2, 19), 'Preetm91')]
-"""
-
-
 if __name__ == "__main__":
     file_path = sys.argv[1]
     print(q1_memory(file_path))
