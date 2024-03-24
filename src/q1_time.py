@@ -2,9 +2,9 @@ from typing import List, Tuple
 from datetime import datetime
 import pandas as pd
 import sys
-# from memory_profiler import profile
+from memory_profiler import profile
 
-# @profile
+@profile
 def q1_time(file_path: str) -> List[Tuple[datetime.date, str]]:
     # Leer el alrchivo y convertirlo a Dataframe
     df = pd.read_json(file_path, lines=True)
